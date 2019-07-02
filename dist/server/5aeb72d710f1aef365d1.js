@@ -1,0 +1,2 @@
+exports.ids=[4],exports.modules={152:function(t,e,l){"use strict";l.r(e);var r={layout:"blank",middleware:async t=>{let{status:e,data:data}=await t.$axios.get("/users/exit");200===e&&data&&1===data.code&&(location.href="/")}},c=l(1),component=Object(c.a)(r,function(){var t=this.$createElement;return(this._self._c||t)("div",[])},[],!1,null,null,"35dcf52c");e.default=component.exports}};
+//# sourceMappingURL=5aeb72d710f1aef365d1.js.map
